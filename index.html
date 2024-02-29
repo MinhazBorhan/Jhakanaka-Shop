@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhakanaka Shop</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <h1>testing</h1>
+    <header>
+        <!-- navbar start here -->
+        <nav class="header-section">
+            <div class="nav-title">
+                <img src="./images/pngwing.com.png" alt="">
+                <p>Jhakanaka<span class="special">Shop</span></p>
+            </div>
+            <div class="nav-items">
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Gallery</a>
+                <a href="">Discount</a>
+                <button class="login-btn">Login</button>
+            </div>
+        </nav>
+        <!-- navbar end here -->
+    </header>
+    <!-- main start -->
+    <main>
+        <section class="banner-section">
+            <div class="banner-text-container">
+                <h1 class="banner-heading">Men Bags</h1>
+                <p class="banner-description">New Men's Collections</p>
+                <div class="banner-icons">
+                    <span><i style="color: blue;" class="fa-brands fa-facebook"></i></span>
+                    <span><i style="color: skyblue;" class="fa-brands fa-twitter"></i></span>
+                    <span><i style="color: red;" class="fa-brands fa-youtube"></i></span>
+                    <span><i style="color: violet;" class="fa-brands fa-instagram"></i></span>
+                </div>
+                <div class="banner-primary-btn">
+                    <button class="banner-btn">See More</button>
+                    <button class="banner-btn">Shop Now</button>
+                </div>
+            </div>
+                <div class="banner-img-container">
+                    <img src="./images/banner-image/bag-picture.jpg" alt="">
+                    <div class="banner-discount">30% OFF</div>
+                </div>
+        </section>
+
+        <!-- product section start here -->
+        <div class="product-section">
+            <h1 style="text-align: center;">Products</h1>
+            <div class="product-container">
+              <div class="single-product">
+                <img src="./images/products/bag.png" alt="">
+                <div class="product-title-icon">
+                    <h2>Product-1</h2>
+                    <div>
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsam nostrum asperiores architecto recusandae earum odio impedit esse aperiam iusto?</p>
+                <p>Price: $1200</p>
+                <button class="product-btn">BUY</button>
+              </div>  
+            </div>
+        </div>
+        <!-- product section ends here -->
+    </main>
+    <!-- main end -->
 </body>
+
 </html>
