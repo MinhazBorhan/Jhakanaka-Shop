@@ -184,3 +184,33 @@ header{
     margin-top: 10px;
 }
 /* product section ends here */
+
+/* gallery section start here */
+.gallery-section{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.gallery-container{
+    background-color: #e6e9eb;
+    border-radius: 10px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.single-gallery{
+    flex-basis: 270px;
+}
+.single-gallery img{
+    width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}

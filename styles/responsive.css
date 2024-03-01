@@ -35,7 +35,10 @@
     /* product style start */
     .product-container{
         grid-template-columns: repeat(2, 1fr);
+        grid
         margin: 0 20px;
+        justify-content: center;
+        align-items: center;
     }
     .product-title-icon{
         font-size: 16px;
